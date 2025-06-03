@@ -1,7 +1,7 @@
 <template>
 
     <Header />
-    <main class="max-w-5xl mx-auto p-6 space-y-10">
+    <main class="mx-auto p-6 space-y-10">
       <aboutMenu />
       <Profile />
       <Skills />
