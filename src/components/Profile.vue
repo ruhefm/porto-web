@@ -13,7 +13,60 @@ contribute to the creation of innovative and user-friendly web and Internet of T
     <ul class="text-justify mt-2">
       <li>
         <strong class="text-white">Network and System Engineer</strong> - Teradata Megah
+        <div id="scrollGallery" class="overflow-x-auto sm:overflow-x-hidden cursor-grab select-none whitespace-nowrap max-w-2xl mx-auto py-2">
+          <div class="flex space-x-8">
+                <img src="/vmware-1.svg" class="w-auto h-16">
+                <img src="/vite.svg" class="w-auto h-16">
+                <img src="/vue.svg" class="w-auto h-16">
+
+
+          </div>
+        </div>
       </li>
     </ul>
   </section>
 </template>
+
+<script>
+export default {
+  name: "scrollGallery",
+  
+  mounted() {
+    const slider = document.getElementById("scrollGallery");
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    slider.addEventListener("mousedown", (e) => {
+      isDown = true;
+      slider.classList.add("cursor-grabbing");
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+    });
+
+    slider.addEventListener("mouseup", () => {
+      isDown = false;
+      slider.classList.remove("cursor-grabbing");
+    });
+
+    slider.addEventListener("mouseleave", () => {
+      isDown = false;
+      slider.classList.remove("cursor-grabbing");
+    });
+
+    slider.addEventListener("mousemove", (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 2;
+      slider.scrollLeft = scrollLeft - walk;
+    });
+  }
+};
+</script>
+
+<style scoped>
+.cursor-grabbing {
+  cursor: grabbing !important;
+}
+</style>
