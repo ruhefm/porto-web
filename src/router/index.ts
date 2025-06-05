@@ -4,7 +4,7 @@ import Education from '@/views/Education.vue'
 
 
 const routes = [
-  { path: '/', name: 'Overview', component: Overview, meta: { title: 'Temp | Heru Purnama' } },
+  { path: '/', name: 'landingPage', component: Overview, meta: { title: 'Temp | Heru Purnama' } },
   { path: '/about', name: 'Overview', component: Overview, meta: { title: 'About | Heru Purnama' } },
   { path: '/about/education', name: 'Education', component: Education, meta: { title: 'Education | Heru Purnama' } }
 ]
