@@ -14,7 +14,7 @@ export default {
         }
       },
       animation: {
-        slide: 'slide 4s ease-in-out infinite',
+        slide: 'slide 30s infinite',
       },
     },
   },

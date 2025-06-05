@@ -10,7 +10,12 @@
 
 <script setup>
 const musicPreferences = [
+    {title:"Proof of a Hero - All Versions", link:"https://www.youtube.com/watch?v=kIJJ2XK1Xt4"},
+    {title:"He's a Pirate", link:"https://www.youtube.com/watch?v=M8VB5Ye3XLM"},
     {title:"Howl's Moving Castle - Merry Go Round of Life", link:"https://www.youtube.com/watch?v=63OT3_Lfy50"},
+    {title:"Can You Hear The Music", link:"https://www.youtube.com/watch?v=4JZ-o3iAJv4"},
+    {title:"Janger", link:"https://www.youtube.com/watch?v=seSjfn6lh9k"},
+    {title:"Paris Barantai", link:"https://www.youtube.com/watch?v=3dyCuxOigSY"},
     {title:"Isyana Sarasvati - IL SOGNO", link:"https://www.youtube.com/watch?v=MZrvJ_yuksI"}
 ]
 </script>
