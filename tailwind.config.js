@@ -9,11 +9,12 @@ export default {
         keyframes: {
         slide: {
           '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-50%)' },
+          '50%': { transform: 'translateX(-50%)' },
+          '100%': { transform: 'translateX(0%)' },
         }
       },
       animation: {
-        slide: 'slide 20s linear infinite',
+        slide: 'slide 4s ease-in-out infinite',
       },
     },
   },
