@@ -3,7 +3,7 @@
     <h2 class="text-justify font-bold text-xl border-b pb-1"><a id="current-role" href="#current-role">Current Role</a></h2>
     <ul class="text-justify mt-2">
       <li>
-        <strong class="text-white">Network and System Engineer</strong> - Teradata Megah
+        <p class="max-w-56 sm:max-w-full"><strong class="text-white">Network and System Engineer</strong> - Teradata Megah</p>
         <div id="scrollGallery" class="overflow-x-auto sm:overflow-x-hidden cursor-grab select-none whitespace-nowrap items-center justify-center mx-auto">
           <div class="animate-slide">
           <div class="inline-block space-x-10" v-for="(img, index) in techStackImages" :key="index">
