@@ -1,7 +1,7 @@
 <template>
 
     <Header />
-    <main class="mx-auto p-6 space-y-10">
+    <main class="mx-auto">
       <aboutMenu />
       <Education />
     </main>
