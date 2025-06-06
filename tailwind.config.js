@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+        fontFamily: {
+    mont: ['Montserrat', 'sans-serif'],
+    roboto: ['Roboto', 'sans-serif'],
+    Bebas: ['Bebas Neue', 'sans-serif']
+  },
         keyframes: {
         slide: {
           '0%': { transform: 'translateX(0%)' },

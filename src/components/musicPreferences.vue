@@ -13,6 +13,7 @@ const musicPreferences = [
     {title:"Proof of a Hero - All Versions", link:"https://www.youtube.com/watch?v=kIJJ2XK1Xt4"},
     {title:"He's a Pirate", link:"https://www.youtube.com/watch?v=M8VB5Ye3XLM"},
     {title:"Howl's Moving Castle - Merry Go Round of Life", link:"https://www.youtube.com/watch?v=63OT3_Lfy50"},
+    {title:"Hans Zimmer - Interstellar", link:"https://www.youtube.com/watch?v=Yo98PdmGzvo"},
     {title:"Can You Hear The Music", link:"https://www.youtube.com/watch?v=4JZ-o3iAJv4"},
     {title:"Janger", link:"https://www.youtube.com/watch?v=seSjfn6lh9k"},
     {title:"Paris Barantai", link:"https://www.youtube.com/watch?v=3dyCuxOigSY"},

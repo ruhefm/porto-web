@@ -1,11 +1,17 @@
 <template>
   <header class="">
 <div class="mx-auto py-2 px-4">
+<section class="py-8">
+  <h1 class="font-mont text-5xl font-bold text-white tracking-tight py-2">Decoding Heru</h1>
+    <p class="text-lg sm:text-xl max-w-xl mx-auto font-roboto text-gray-300">
+From grassroot to grass — a story rooted in survival,<br/>raised in simplicity, and growing in complexity.
+  </p>
+  </section>
   <div class="flex items-center justify-center sm:justify-normal gap-4">
-    <img src="https://media.licdn.com/dms/image/v2/D5603AQENn94JRpEIcA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693998035611?e=1754524800&v=beta&t=eBEB1h2gCf73KBxS_TEsqyoJR_XoG9WxbdFO1JgSA-I" class="w-24 h-24 rounded-full object-cover hidden sm:block">
+    <img src="/heru-kaca.png" class="w-24 h-24 hidden sm:block">
     <div>
 <div class="flex items-center justify-center sm:hidden py-4">
-      <img src="https://media.licdn.com/dms/image/v2/D5603AQENn94JRpEIcA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693998035611?e=1754524800&v=beta&t=eBEB1h2gCf73KBxS_TEsqyoJR_XoG9WxbdFO1JgSA-I" class="w-32 h-32 rounded-full object-cover sm:hidden">
+      <img src="/heru-kaca.png" class="w-32 h-32 object-cover sm:hidden">
 </div>
 <div class="px-2">
       <h1 class="text-3xl sm:text-4xl font-bold text-white text-center sm:text-left">Heru Purnama</h1>
