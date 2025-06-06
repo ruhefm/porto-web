@@ -15,6 +15,15 @@
           </div>
         </div>
       </li>
+      <li>Created and managed virtualization environments using VMware and Citrix to support banking systems.
+
+Maintained and secured network infrastructure, including Checkpoint firewall administration and rule management.
+
+Configured and monitored IPSec and OpenVPN for secure client and inter-branch connectivity.
+
+Collaborated closely with the Support and Developer teams to deploy core banking systems and API services to the production environment.
+
+Implemented and monitored database replication strategies to ensure high availability and data consistency.</li>
     </ul>
   </section>
 </template>
