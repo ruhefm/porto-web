@@ -4,7 +4,7 @@
     <ul class="text-justify mt-2">
       <li>
         <p class="max-w-56 sm:max-w-full"><strong class="text-white">Network and System Engineer</strong> - Teradata Megah</p>
-        <div id="scrollGallery" class="overflow-x-auto sm:overflow-x-hidden cursor-grab select-none whitespace-nowrap items-center justify-center mx-auto">
+        <div v-scroll id="scrollGallery" class="overflow-x-auto sm:overflow-x-hidden cursor-grab select-none whitespace-nowrap items-center justify-center mx-auto">
           <div class="animate-slide">
           <div class="inline-block space-x-10" v-for="(img, index) in techStackImages" :key="index">
           <img :src="img.path" :alt="img.name" :class="`filter ${img.filter} mx-2 w-16 h-16 select-none pointer-events-none`" draggable="=false">
@@ -19,7 +19,7 @@
   </section>
 </template>
 
-<script>
+<!-- <script>
 export default {
   name: "scrollGallery",
   
@@ -55,7 +55,7 @@ export default {
     });
   }
 };
-</script>
+</script> -->
 
 <style scoped>
 .cursor-grabbing {
