@@ -1,8 +1,8 @@
 <template>
-  <div class="min-h-scree text-gray-200 font-mono text-sm sm:text-lg">
+  <main class="text-gray-200 font-mono text-sm sm:text-lg">
     <router-view />
     <Footer />
-      </div>
+      </main>
 </template>
 
 <script setup lang="ts">
