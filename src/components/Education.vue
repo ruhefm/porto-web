@@ -4,9 +4,9 @@
     <li class="flex py-4 border-b items-center">
       <img :src="`/${education.path}`" :alt="education.title" class="w-16 h-16 rounded-full object-cover bg-white">
       <div>
-      <span class="px-4 text-2xl">{{ education.title }}</span><br/>
-      <span class="px-4 text-xl">{{ education.dateRange }}</span><br/>
-      <span class="px-4 text-xl">{{ education.major }}</span><br/>
+      <span class="px-4 text-xl sm:text-2xl">{{ education.title }}</span><br/>
+      <span class="px-4 text-lg sm:text-xl">{{ education.dateRange }}</span><br/>
+      <span class="px-4 text-lg sm:text-xl">{{ education.major }}</span><br/>
       <li class="px-4 list-disc" v-for="(line, idx) in education.desc.split('\n')" :key="idx">
     {{ line.replace(/^•\s*/, '') }}
   </li>
