@@ -1,7 +1,7 @@
 <template>
 
-    <Header />
-    <main class="mx-auto">
+    <main class="mx-auto max-w-screen-2xl">
+      <Header />
       <aboutMenu />
       <Introduction/>
       <Profile />

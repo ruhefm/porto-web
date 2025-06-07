@@ -5,6 +5,6 @@ import App from './App.vue'
 import router from '@/router/'
 import scroll from '@/assets/scroll.ts';
 const app = createApp(App)
-app.directive('scroll', scroll);
+app.directive('scroll', scroll); //Enable v-scroll
 app.use(router)
 app.mount('#app')

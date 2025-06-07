@@ -1,7 +1,7 @@
 <template>
 
-    <Header />
-    <main class="mx-auto">
+    <main class="mx-auto max-w-screen-2xl">
+      <Header />
       <aboutMenu />
       <Education />
     </main>
@@ -12,5 +12,4 @@
 import Header from '@/components/Header.vue'
 import aboutMenu from '@/components/aboutMenu.vue'
 import Education from '@/components/Education.vue'
-
 </script>
