@@ -4,7 +4,7 @@
           <div id="final" class="justify-left leading-relaxed">
             <h1>Heru Purnama</h1>
             <h2 class="font-robo text-xl">Network & System Engineer, Software Engineer, Hunter.</h2>
-            <p class="font-robo text-xl"><a href="/about/" class="text-teal-600">Get to know more About Me</a></p>
+            <p class="font-robo text-xl"><a href="/about" class="text-teal-600">Get to know more About Me</a></p>
             <div class="flex items-center">
               <a target="_blank" href="CV_Heru Purnama_Network_Public.pdf"><button class="flex gap-2 bg-gradient-to-br from-slate-800 to-slate-900 to-75% p-2 sm:p-3 rounded text-xl"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
