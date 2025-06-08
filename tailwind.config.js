@@ -14,12 +14,12 @@ export default {
         keyframes: {
         slide: {
           '0%': { transform: 'translateX(0%)' },
-          '50%': { transform: 'translateX(-50%)' },
+          '50%': { transform: 'translateX(-15%)' },
           '100%': { transform: 'translateX(0%)' },
         }
       },
       animation: {
-        slide: 'slide 30s infinite',
+        slide: 'slide 25s infinite',
       },
     },
   },
