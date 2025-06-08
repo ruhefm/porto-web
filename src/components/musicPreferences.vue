@@ -11,7 +11,7 @@
 
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 py-2 max-w-screen-2xl overflow-hidden">
 <div v-for="(music, index) in musicPreferences" :key="index">
-<div class="min-h-72 bg-gradient-to-br from-slate-800 to-slate-900 to-75% rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 border-gray-700 mr-4 my-4">
+<div class="min-h-36 sm:min-h-72 bg-gradient-to-br from-slate-800 to-slate-900 to-75% rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 border-gray-700 mr-4 my-4">
     <a href="#">
       <div class = "items-center justify-center flex">
         <!-- <img class="rounded-t-lg object-cover" src="" alt="" /> -->
@@ -19,7 +19,7 @@
       </div>
     </a>
         <a :href=music.link>
-            <h5 class="p-6 items-center justify-center mx-auto text-xl text-center font-bold tracking-tight text-white dark:text-white">{{music.title}}</h5>
+            <h5 class="p-6 items-center justify-center mx-auto text-sm sm:text-xl text-center font-bold tracking-tight text-white dark:text-white">{{music.title}}</h5>
         </a>
         <!-- <p class="mb-3 font-normal text-gray-400 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p> -->
 </div>

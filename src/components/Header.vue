@@ -1,6 +1,6 @@
 <template>
   <header class="">
-<div class="mx-auto py-2 px-4">
+<div class="mx-auto py-4 px-4">
 <section class="py-2 sm:py-8">
   <h1 class="font-mont text-5xl font-bold text-white tracking-tight py-2">Decoding Heru</h1>
     <p class="text-lg sm:text-xl max-w-xl mx-auto font-roboto text-gray-300">

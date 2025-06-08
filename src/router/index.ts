@@ -1,12 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Overview from '@/views/Overview.vue'
 import Education from '@/views/Education.vue'
+import Experiences from '@/views/Experiences.vue'
+
 
 
 const routes = [
   { path: '/', name: 'landingPage', component: Overview, meta: { title: 'Temp | Heru Purnama' } },
   { path: '/about', name: 'Overview', component: Overview, meta: { title: 'About | Heru Purnama' } },
-  { path: '/about/education', name: 'Education', component: Education, meta: { title: 'Education | Heru Purnama' } }
+  { path: '/about/education', name: 'Education', component: Education, meta: { title: 'Education | Heru Purnama' } },
+  { path: '/about/experiences', name: 'Experiences', component: Experiences, meta: { title: 'Experiences | Heru Purnama' } }
 ]
 
 const router = createRouter({

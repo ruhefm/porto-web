@@ -3,7 +3,7 @@
   <ul class="list-inside text-left" v-for="(education, index) in educations" :key="index">
     <li class="block py-2 md:flex border-b items-center">
       <div class="items-center justify-center flex py-4 min-w-20"><img :src="`/${education.path}`" :alt="education.title" class="w-16 h-16 rounded-full object-cover bg-white"></div>
-      <div class="s">
+      <div class="">
       <p class="mx-auto sm:mx-4 text-xl md:text-2xl text-center md:text-left">{{ education.title }}</p>
       <p class="mx-auto sm:mx-4 text-lg md:text-xl text-center md:text-left">{{ education.dateRange }}</p>
       <p class="mx-auto sm:mx-4 text-lg md:text-xl text-center md:text-left">{{ education.major }}</p>
