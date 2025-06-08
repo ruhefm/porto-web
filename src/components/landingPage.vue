@@ -14,7 +14,7 @@ Resume</button></a>
 <a href="https://www.linkedin.com/in/heru-purnama/" target="_blank"><img src="/linkedin.svg" class="w-14 h-14 mx-1 py-1 invert"/></a>
 </div>
           </div>
-    <div id="ketik" class="blinking-cursor text-center"></div>
+    <span id="ketik" class="blinking-cursor text-center"></span>
 </div>
 
   </div>
