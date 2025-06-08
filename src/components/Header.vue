@@ -14,8 +14,8 @@ From grassroot to grass — a story rooted in survival,<br/>raised in simplicity
       <img src="/heru-kaca.png" class="w-32 h-32 sm:hidden">
 </div>
 <div class="px-2">
-      <h1 class="text-3xl sm:text-4xl font-bold text-white text-center sm:text-left">Heru Purnama</h1>
-      <p class="text-sm sm:text-lg text-gray-300 text-center sm:text-left">Network & System Engineer, Software Engineer, Hunter.</p>
+      <h1 class="text-3xl sm:text-4xl font-bold text-white text-center sm:text-left font-mont">Heru Purnama</h1>
+      <p class="text-sm sm:text-lg text-gray-300 text-center sm:text-left font-roboto">Network & System Engineer, Software Engineer, Hunter.</p>
       </div>
     </div>
   </div>
