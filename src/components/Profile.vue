@@ -7,10 +7,10 @@
         <div v-scroll id="scrollGallery" class="overflow-x-auto sm:overflow-x-hidden cursor-grab select-none whitespace-nowrap items-center justify-center mx-auto">
           <div class="animate-slide">
           <div class="inline-block space-x-10" v-for="(img, index) in techStackImages" :key="index">
-          <img :src="img.path" :alt="img.name" :class="`filter ${img.filter} mx-2 w-16 h-16 select-none pointer-events-none`" draggable="=false">
+          <img :src="`/${img.path}`" :alt="img.name" :class="`filter ${img.filter} mx-2 w-16 h-16 select-none pointer-events-none`" draggable="=false">
           </div>
           <div class="inline-block space-x-10" v-for="(img, index) in techStackImages" :key="index">
-          <img :src="img.path" :alt="img.name" :class="`filter ${img.filter} mx-2 w-16 h-16 select-none pointer-events-none`" draggable="=false">
+          <img :src="`/${img.path}`" :alt="img.name" :class="`filter ${img.filter} mx-2 w-16 h-16 select-none pointer-events-none`" draggable="=false">
           </div>
           </div>
         </div>
@@ -27,44 +27,6 @@ Implemented and monitored database replication strategies to ensure high availab
     </ul>
   </section>
 </template>
-
-<!-- <script>
-export default {
-  name: "scrollGallery",
-  
-  mounted() {
-    const slider = document.getElementById("scrollGallery");
-    let isDown = false;
-    let startX;
-    let scrollLeft;
-
-    slider.addEventListener("mousedown", (e) => {
-      isDown = true;
-      slider.classList.add("cursor-grabbing");
-      startX = e.pageX - slider.offsetLeft;
-      scrollLeft = slider.scrollLeft;
-    });
-
-    slider.addEventListener("mouseup", () => {
-      isDown = false;
-      slider.classList.remove("cursor-grabbing");
-    });
-
-    slider.addEventListener("mouseleave", () => {
-      isDown = false;
-      slider.classList.remove("cursor-grabbing");
-    });
-
-    slider.addEventListener("mousemove", (e) => {
-      if (!isDown) return;
-      e.preventDefault();
-      const x = e.pageX - slider.offsetLeft;
-      const walk = (x - startX) * 2;
-      slider.scrollLeft = scrollLeft - walk;
-    });
-  }
-};
-</script> -->
 
 <style scoped>
 .cursor-grabbing {
