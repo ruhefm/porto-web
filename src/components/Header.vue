@@ -1,10 +1,10 @@
 <template>
   <header class="">
 <div class="mx-auto py-4 px-4">
-<section class="py-2 sm:py-8">
+<section class="py-2 sm:py-2">
   <h1 class="font-mont text-5xl font-bold text-white tracking-tight py-2">Decoding Heru</h1>
     <p class="text-lg sm:text-xl max-w-xl mx-auto font-roboto text-gray-300">
-From grassroot to grass — a story rooted in survival,<br/>raised in simplicity, and growing in complexity.
+From grassroot to grass — a story rooted in survival, raised in simplicity, and growing in complexity.
   </p>
   </section>
   <div class="flex items-center justify-center sm:justify-normal gap-4">
