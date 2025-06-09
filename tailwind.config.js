@@ -17,10 +17,15 @@ export default {
           '0%': { transform: 'translateX(0%)' },
           '50%': { transform: 'translateX(-15%)' },
           '100%': { transform: 'translateX(0%)' },
+        },
+        daribawah: {
+        '0%': { transform: 'translateY(25%)', opacity: '0' },
+        '100%': { transform: 'translateY(0%)', opacity: '1' },
         }
       },
       animation: {
         slide: 'slide 25s infinite',
+        daribawah: 'daribawah 15s ease forwards',
       },
     },
   },
