@@ -6,7 +6,7 @@
         <img :src="`/${education.path}`" :alt="education.title" class="w-16 h-16 rounded-full object-cover bg-white">
       </div> -->
       <div class="">
-      <p class="text-xl md:text-xl text-center md:text-left">{{ education.title }}</p>
+      <p class="text-xl md:text-xl text-center md:text-left text-white font-semibold">{{ education.title }}</p>
       <p class="text-lg md:text-xl text-center md:text-left">{{ education.dateRange }}</p>
       <p class="text-lg md:text-xl text-center md:text-left">{{ education.place }}</p>
       <li class="list-disc" v-for="(line, idx) in education.desc.split('\n')" :key="idx">

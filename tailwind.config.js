@@ -9,7 +9,8 @@ export default {
         fontFamily: {
     mont: ['Montserrat', 'sans-serif'],
     roboto: ['Roboto', 'sans-serif'],
-    Bebas: ['Bebas Neue', 'sans-serif']
+    Bebas: ['Bebas Neue', 'sans-serif'],
+    noto: ['Noto Sans', 'sans-serif']
   },
         keyframes: {
         slide: {
