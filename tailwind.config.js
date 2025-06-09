@@ -25,7 +25,7 @@ export default {
       },
       animation: {
         slide: 'slide 25s infinite',
-        daribawah: 'daribawah 15s ease forwards',
+        daribawah: 'daribawah 1s ease forwards',
       },
     },
   },

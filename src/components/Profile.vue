@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="animate-daribawah">
     <h2 class="text-justify font-bold text-xl border-b pb-1"><a id="current-role" href="#current-role">Current Role</a></h2>
     <ul class="text-justify mt-2">
       <li>

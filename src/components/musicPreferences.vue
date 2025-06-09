@@ -1,5 +1,5 @@
 <template>
-<section class="py-4">
+<section class="py-4 animate-daribawah">
    <h2 class="text-justify font-bold text-xl border-b pb-1"><a id="music" href="#music">🎵 Music I Like</a></h2>
   <h2 class="text-2xl font-bold mb-4"></h2>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">

@@ -1,5 +1,5 @@
 <template>
-<nav v-scroll class="flex items-center sm:justify-normal gap-6 border-b-2 text-white text-center overflow-x-auto select-none">
+<nav v-scroll class="animate-daribawah flex items-center sm:justify-normal gap-6 border-b-2 text-white text-center overflow-x-auto select-none">
   <div v-for="(link, index) in links" :key="index">
   <RouterLink :to=link.link active-class="border-b-2 pb-2 border-indigo-500 text-indigo-500" class="flex items-center gap-2 hover:text-indigo-400 active">
     <span>
