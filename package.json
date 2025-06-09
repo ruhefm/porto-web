@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/noto-sans-display": "^5.2.7",
+    "@fontsource/noto-sans-sundanese": "^5.2.6",
     "path": "^0.12.7",
     "url": "^0.11.4",
     "vue": "^3.5.13",

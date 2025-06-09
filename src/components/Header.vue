@@ -3,7 +3,7 @@
 <div class="mx-auto py-4 px-4">
 <section class="py-2 sm:py-2">
   <h1 class="font-mont text-5xl font-bold text-white tracking-tight py-2">Decoding Heru</h1>
-    <p class="text-lg sm:text-xl max-w-xl mx-auto font-roboto text-gray-300">
+  <p class="text-lg sm:text-xl max-w-xl mx-auto font-roboto text-gray-300">
 From grassroot to grass — a story rooted in survival, raised in simplicity, and growing in complexity.
   </p>
   </section>
@@ -14,8 +14,9 @@ From grassroot to grass — a story rooted in survival, raised in simplicity, an
       <img src="/heru-kaca.png" class="w-32 h-32 sm:hidden">
 </div>
 <div class="px-2">
-      <h1 class="text-3xl sm:text-4xl font-bold text-white text-center sm:text-left font-mont">Heru Purnama</h1>
+      <h1 class="text-3xl sm:text-4xl font-bold text-white text-center sm:text-left font-mont">Heru Purnama</h1>      
       <p class="text-sm sm:text-lg text-gray-300 text-center sm:text-left font-roboto">Network & System Engineer, Software Engineer, Hunter.</p>
+      <p class="font-sundanese text-sm sm:text-xl text-center sm:text-left text-gray-300">ᮠᮦᮛᮥ ᮕᮥᮁᮔᮙ</p>  
       </div>
     </div>
   </div>
