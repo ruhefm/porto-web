@@ -5,8 +5,8 @@
       <div class="items-center justify-center flex py-4 min-w-20"><img :src="`/${education.path}`" :alt="education.title" class="w-16 h-16 rounded-full object-cover bg-white"></div>
       <div class="">
       <p class="mx-auto sm:mx-4 text-xl md:text-xl text-center md:text-left text-white font-semibold">{{ education.title }}</p>
-      <p class="mx-auto sm:mx-4 text-lg md:text-lg text-center md:text-left tracking-wide">{{ education.major }}</p>
-      <p class="mx-auto sm:mx-4 text-sm md:text-sm text-center md:text-left sm:tracking-widest">{{ education.dateRange }}</p>
+      <p class="mx-auto sm:mx-4 text-lg md:text-lg text-center md:text-left tracking-wide font-roboto text-gray-300">{{ education.major }}</p>
+      <p class="mx-auto sm:mx-4 text-sm md:text-sm text-center md:text-left font-roboto text-gray-400">{{ education.dateRange }}</p>
       <li class="px-4 list-disc" v-for="(line, idx) in education.desc.split('\n')" :key="idx">
     {{ line.replace(/^•\s*/, '') }}
   </li>
