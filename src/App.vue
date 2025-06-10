@@ -1,10 +1,8 @@
 <template>
-  <div class="w-full">
-  <main class="text-gray-200 font-noto text-sm sm:text-lg">
+  <main class="text-gray-200 font-noto font-extralight text-sm sm:text-lg mx-auto max-w-screen-lg p-8">
     <router-view />
       </main>
     <Footer />
-    </div>
 </template>
 
 <script setup lang="ts">

@@ -2,7 +2,7 @@
   <section class="">
 <nav v-scroll class="flex items-center sm:justify-normal gap-6 border-b-2 text-white text-center overflow-x-auto select-none">
   <div v-for="(link, index) in links" :key="index">
-  <RouterLink :to=link.link active-class="border-b-2 pb-2 border-indigo-500 text-indigo-500" class="flex items-center gap-2 hover:text-indigo-400 active">
+  <RouterLink :to=link.link active-class="border-b-2 pb-2 border-indigo-500 text-indigo-500" class="flex items-center gap-2 hover:text-indigo-400 active font-semibold">
     <span>
 <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" :d="link.img" />

@@ -10,7 +10,7 @@ export default {
     mont: ['Montserrat', 'sans-serif'],
     roboto: ['Roboto', 'sans-serif'],
     Bebas: ['Bebas Neue', 'sans-serif'],
-    noto: ['Noto Sans Display', 'sans-serif'],
+    noto: ['Noto Sans', 'sans-serif'],
     sundanese: ['"Noto Sans Sundanese"', 'sans-serif'],
 
   },

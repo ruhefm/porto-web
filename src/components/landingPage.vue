@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex items-center justify-center max-w-screen-2xl">
-        <div id="container" class="text-4xl sm:text-6xl font-mont text-left">
-          <div id="final" class="justify-left leading-relaxed">
+        <div id="container" class="text-3xl sm:text-6xl font-mont">
+          <div id="final" class="justify-left leading-relaxed text-left">
             <h1>Heru Purnama</h1>
             <h2 class="font-robo text-xl">Network & System Engineer, Software Engineer, Hunter.</h2>
             <p class="font-robo text-xl"><a href="/about" class="text-teal-600">Get to know more About Me</a></p>
@@ -14,7 +14,7 @@ Resume</button></a>
 <a href="https://www.linkedin.com/in/heru-purnama/" target="_blank"><img src="/linkedin.svg" class="w-14 h-14 mx-1 py-1 invert"/></a>
 </div>
           </div>
-    <span id="ketik" class="blinking-cursor text-center"></span>
+    <div id="ketik" class="blinking-cursor text-left"></div>
 </div>
 
   </div>

@@ -1,8 +1,12 @@
 <template>
 <section class="py-4">
-   <h2 class="text-justify font-bold text-xl border-b pb-1"><a id="music" href="#music">🎵 Music I Like</a></h2>
-  <h2 class="text-2xl font-bold mb-4"></h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+   <h2 class="text-justify font-bold text-xl border-b pb-1">
+    <a id="music" href="#music" class="flex">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 1 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163Zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 9 15.553Z" />
+</svg>
+ <span class="mx-2">Music I Like</span></a></h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-4">
   <ul class="list-disc list-inside space-y-1 text-left" v-for="(music, index) in musicPreferences" :key="index">
     <li><a :href="music.link">{{music.title}}</a></li>
   </ul>
@@ -19,7 +23,7 @@
       </div>
     </a>
         <a :href=music.link>
-            <h5 class="p-6 items-center justify-center mx-auto text-sm sm:text-xl text-center font-bold tracking-tight text-white dark:text-white">{{music.title}}</h5>
+            <h5 class="p-6 items-center justify-center mx-auto text-sm sm:text-lg text-center tracking-tight text-white dark:text-white">{{music.title}}</h5>
         </a>
         <!-- <p class="mb-3 font-normal text-gray-400 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p> -->
 </div>
