@@ -5,8 +5,8 @@
       <aboutMenu />
       <Introduction/>
       <Profile />
-      <musicPreferences />
       <Skills />
+      <musicPreferences />
     </main>
 
 </template>
