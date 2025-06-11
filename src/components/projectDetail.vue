@@ -15,7 +15,7 @@ const route = useRoute()
 const slug = route.params.slug
 const htmlContent = ref('')
 
-const files = import.meta.glob('@/assets/markdown/projects/*.md', { as: 'raw' })
+const files = import.meta.glob('@/assets/markdown/projects/*.md', { query: '?raw', import: 'default' })
 
 const loadMarkdown = async () => {
   const filePath = `/src/assets/markdown/projects/${slug}.md`
@@ -45,32 +45,46 @@ loadMarkdown()
 
 
 <style scoped>
-.prose ::v-deep img{
-  max-width: 1280px;
+.prose :deep(img){
+  max-width: 600px;
   width: 100%;
-  max-height: 720px;
+  max-height: 600px;
   object-fit: contain;
   height: auto;
   margin: 1rem auto;
   display: block;
   border-radius: 0.5rem;
 }
-.prose ::v-deep p{
+.prose :deep(p){
     text-align:justify;
     margin:1rem auto;
 }
-.prose ::v-deep h1{
+.prose :deep(h1){
     margin:1rem auto;
     font-size: xx-large;
     font-family: cursive;;
     line-height: 1;
 }
-.prose ::v-deep h2{
+.prose :deep(h2){
     margin:1rem auto;
     font-size: x-large;
     font-family: cursive;;
 }
-.prose ::v-deep ol ul li{
+.prose :deep(ol ul li){
     margin:1rem auto;
+}
+.prose :deep(table){
+    width:100%;
+  align-content: center;
+      text-align: center; 
+      vertical-align: middle;
+}
+
+.prose :deep(th td){
+  align-content: center;
+  border: 1px solid #444;
+  vertical-align: middle;
+  padding: 8px;
+  text-align: center; 
 }
 </style>

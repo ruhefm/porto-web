@@ -10,7 +10,7 @@ tools: [
 
 # **UI Project**
 
-The main goal of this project is to improve my UI design skills and aesthetic sense. It is a mockup of a mobile application for water service payments in my neighborhood, IoT Plug and Play, and a health diagnose apps.
+The main goal of this project is to improve my UI design skills and aesthetic sense. It is a mockup of a mobile application for water service payments in my neighborhood, IoT Plug and Play, and a health diagnose apps for P2M purpose.
 
 ![UI Image 1](/ui-2.png)
 
