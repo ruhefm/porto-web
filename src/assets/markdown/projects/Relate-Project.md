@@ -25,19 +25,21 @@ This is a group project called RELATE, primarily a server-side web application e
     - Helping on building front-end.
 4. **Fanisa Nur Indah**
     - Building and training NLP to provide recommendation based on computer vision result.
-5. **Gandhi Assidique**
+5. **Muhammad Ramdan**
+    - Assist Fanisa build NLP by using react.
+6. **Gandhi Assidique**
     - Data Science, helps on training data for Computer Vision.
 
-* ![Relate Title](/relateTitle.png)
+![Relate Title](/relateTitle.png)
 
 
-* ![Relate Detection](/relateDetection.png)
+![Relate Detection](/relateDetection.png)
 
 
-* ![Relate Register 1](/relateRegister1.png)
+![Relate Register 1](/relateRegister1.png)
 
 
-* ![Relate Register 2](/relateRegister2.png)
+![Relate Register 2](/relateRegister2.png)
 
 
-* ![Relate Login](/relateLogin.png)
+![Relate Login](/relateLogin.png)

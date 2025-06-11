@@ -15,4 +15,4 @@ This research demonstrates that using raw rules provides better performance comp
 ## **How it Works?**
 
 
-* ![Skripsi Image](/skripsi.png)
+![Skripsi Image](/skripsi.png)
