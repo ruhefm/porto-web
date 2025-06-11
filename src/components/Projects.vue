@@ -24,7 +24,7 @@ const projects = ref([])
 
 const markdownFilesList = import.meta.glob(
   '@/assets/markdown/projects/*.md',
-  { as: 'raw', eager: true }
+  { query: '?raw', import: 'default', eager: true }
 )
 
 for (const path in markdownFilesList) {
