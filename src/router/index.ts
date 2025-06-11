@@ -5,6 +5,7 @@ import Experiences from '@/views/Experiences.vue'
 import Landing from '@/views/Landing.vue'
 import NotFound from '@/views/404.vue'
 import Projects from '@/views/Projects.vue'
+import projectDetail from '@/views/projectDetail.vue'
 
 
 const routes = [
@@ -12,8 +13,13 @@ const routes = [
   { path: '/about', name: 'Overview', component: Overview, meta: { title: 'About | Heru Purnama' } },
   { path: '/about/education', name: 'Education', component: Education, meta: { title: 'Education | Heru Purnama' } },
   { path: '/about/experiences', name: 'Experiences', component: Experiences, meta: { title: 'Experiences | Heru Purnama' } },
-  { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
   { path: '/projects', name: 'Projects', component: Projects, meta: { title: 'Projects | Heru Purnama' } },
+  { path: '/projects/:slug', name: 'projectDetail', component: projectDetail, meta: { title: 'Projects | Heru Purnama' } },
+
+
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
+
+
 ]
 
 const router = createRouter({

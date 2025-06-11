@@ -1,19 +1,49 @@
 <template>
-    <section class="text-justify animate-daribawah">
-    <div v-for="(project,index) in projects" :key="index">
-    <h1 class="font-mont text-3xl sm:text-4xl md:text-5xl font-semibold py-4 text-left">{{project.title}}</h1>
+    <section class="text-justify animate-daribawah" v-if="projects.length">
+    <div v-for="project in projects" :key="project.slug">
+    <RouterLink :to="`/projects/${project.slug}`">
+        <h1 class="font-mont text-3xl sm:text-4xl md:text-5xl font-semibold py-4 text-left">{{project.title}}</h1>
+    </RouterLink>
     <div v-scroll class="flex overflow-auto select-none">
     <img v-for="(image,index) in project.images" :key="index" :src="image" :class="`select-none opacity-75 max-h-screen mx-auto px-1 max-w-lg ${project.size}`">
     </div>
     <p class="py-4">{{project.desc}}</p>
+    <div v-scroll class="flex items-center overflow-auto">
+        <p class="mr-2"><strong>Tools:</strong></p>
+    <img v-for="(tool,index) in project.tools" :key="index" :src="tool.imagePath" :class="`select-none w-8  h-8 mr-2 rounded-full bg-slate-300 p-1 object-fill`" :alt="tool.alt">
+    </div>
     </div>
     </section>
 </template>
 
 <script setup>
-const projects = [
-    { title:'UI Project', size:'max-w-screen-xl', images:['/ui-2.png'], desc:`The main goal of this project is to improve my UI design skills and aesthetic sense. It is a mockup of a mobile application for water service payments in my neighborhood, IoT Plug and Play, and a health diagnose apps.` },
-    { title:'Relate Project', size:'', images:['/relateDetection.png','/relateRegister1.png','/relateRegister2.png','/relateLogin.png','relateTitle.png'], desc:`This is a group project called RELATE, primarily a server-side web application. My main responsibility was integrating computer vision using YOLO (in Python) and displaying the results on the frontend. The project also features a chatbot built with React and NLP, which recommends appropriate actions based on the output—such as suggesting nearby repair shops if a phone screen is detected as cracked. The tech stack includes Python, Django, and UI-Kit for the frontend.` },
-    { title:'Security Method Analysis on Mikrotik', size:'', images:['/skripsi.png'], desc:`This research demonstrates that using raw rules provides better performance compared to filter rules in Mikrotik. The evaluation was conducted using the TOPSIS multi-criteria decision-making method.` },
-]
+import { ref } from 'vue'
+import fm from 'front-matter'
+
+const projects = ref([])
+
+const markdownFilesList = import.meta.glob(
+  '@/assets/markdown/projects/*.md',
+  { as: 'raw', eager: true }
+)
+
+for (const path in markdownFilesList) {
+  const rawContent = markdownFilesList[path]
+  const { attributes } = fm(rawContent)
+  const slug = path.split('/').pop().replace('.md', '')
+
+  console.log('YAML data:', attributes)
+
+  projects.value.push({
+    slug,
+    title: attributes.title || slug,
+    desc: attributes.desc || '',
+    size: attributes.size || '',
+    images: attributes.images || [],
+    tools: attributes.tools || [],
+  })
+}
 </script>
+
+
+

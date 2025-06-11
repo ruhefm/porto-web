@@ -11,12 +11,18 @@
   "dependencies": {
     "@fontsource/noto-sans-display": "^5.2.7",
     "@fontsource/noto-sans-sundanese": "^5.2.6",
+    "front-matter": "^4.0.2",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0",
+    "markdown-it-imsize": "^2.0.1",
     "path": "^0.12.7",
     "url": "^0.11.4",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.15.29",
     "@vitejs/plugin-vue": "^5.2.3",
     "@vue/tsconfig": "^0.7.0",
