@@ -1,6 +1,6 @@
 <template>
       <mainMenu/>
-    <main class="mx-auto">
+    <main class="mx-auto max-w-screen-lg ">
       <Header />
       <aboutMenu />
       <Introduction/>

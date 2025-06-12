@@ -17,7 +17,7 @@ This was a multidisciplinary university group project where I had the privilege 
 
 # **Volunteering @ SDN Cibanteng and SMPN 59**
 
-## What I Do?
+> ## What I Do?
 
 1. Preparation for Partners: 
 - Ensuring all necessary files and documentation were ready for submission to SDN Cibanteng and SMPN 59 Bandung.
@@ -44,7 +44,7 @@ This was a multidisciplinary university group project where I had the privilege 
 | 7  | Lamp Socket                 | 1   |
 | 8  | LED                         | 6   |
 
-## Contributors @ SMPN 59 Bandung
+> ## Contributors @ SMPN 59 Bandung
 
 1. **Indra Septian**
 
@@ -56,11 +56,11 @@ This was a multidisciplinary university group project where I had the privilege 
 
 5. **Siti Suryani**
 
-## Contributors @ SDN Cibanteng
+> ## Contributors @ SDN Cibanteng
 
 This collaboration involved team members from the same class (TE-01), where we were divided into two factions by the University.
 
-## Explore our Work
+> ## Explore our Work
 
 Take a Look @ Our Lovely [BookChapter](/BookChapter.pdf)
 

@@ -1,6 +1,6 @@
 <template>
     <mainMenu />
-  <div class="min-h-screen flex flex-col items-center justify-center text-center text-gray-300 dark:text-gray-700">
+  <div class="min-h-screen flex flex-col items-center justify-center text-center text-gray-300 dark:text-gray-700 max-w-screen-lg ">
     <h1 class="text-6xl font-bold">404</h1>
     <p class="mt-4 text-xl">Oops! Page Under Construction.</p>
   <a href="/about"><button class="my-4 flex gap-2 bg-gradient-to-br from-slate-800 to-slate-900 to-75% p-2 sm:p-3 rounded text-xl"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">

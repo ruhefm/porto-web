@@ -8,10 +8,10 @@ tools: [
     {imagePath: '/python.svg', alt: 'Python'},
     {imagePath: '/supabase.svg', alt: 'Supabase'},
 ]
-tags: ['self', 'apps']
+tags: ['personal', 'apps']
 ---
 
-# Indepth With Smart Home
+> # Indepth With Smart Home
 
 ## How it works?
 
@@ -77,17 +77,19 @@ dispp = render_template('Beranda.html',title='Beranda Smarthome',tempData=tempDa
 return dispp
 ```
 
-# Indepth With Telegram Bot API
+> # Indepth With Telegram Bot API
+
+## How it works?
 
 This is to bridge SIM800L TLS version. The TLS Telegram needed is higher than the SIM800L TLS version have. The python flask server is listening to simple GET/POST method (for easy approach using GET), when it receive /api/koordinat?lat=x&long=y&battery=z&altitude=a. Then it's send request to Telegram via telegram webhook.
 
-## SIM800L
+### SIM800L
 ```
 sendATCommand("AT+HTTPINIT"); 
 sendATCommand("AT+HTTPPARA=\"URL\",\"http://teleapigps.pythonanywhere.com/?lat="+latitude+"&long="+longitude+"&bat="+percentage+"&alt="+alt+ "\""); 
 sendATCommand("AT+HTTPACTION=0"); 
 ```
-## Python GET
+### Python GET
 ```
 lat = flask.request.args.get("lat")
 longitude = flask.request.args.get("long")
@@ -95,7 +97,7 @@ alt = flask.request.args.get("alt")
 bat = float(flask.request.args.get("bat"))
 bat = 100-bat
 ```
-## Python Telegram Bot Lib
+### Python Telegram Bot Lib
 ```
 @bot.message_handler(commands=['start', 'help'])
 def handle_start_help(message):
@@ -108,8 +110,10 @@ def handle_start_help(message):
     bot.send_message(message.chat.id, text=f"Latitude:{lat}\nLongitude:{longitude}\nAltitude:{alt}\nPersentase Baterai:{bat} % \n\nhttp://maps.google.com/maps?q=loc:{lat},{longitude}")
 ```
 
-## Documentation
+> ## Documentation
 
 ![Humidity](/smartHome1.png)
 ![Temperature](/smartHome2.png)
 ![keyLogData](/smartHome3.png)
+![SmartHomeTelegram](/smartHomeTelegram.png)
+

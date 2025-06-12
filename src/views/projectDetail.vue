@@ -1,7 +1,7 @@
 <template>
 
   <mainMenu />
-    <main class="mx-auto py-4">
+    <main class="mx-auto py-4 max-w-screen-lg ">
       <projectDetail />
     </main>
 

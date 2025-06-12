@@ -1,6 +1,6 @@
 <template>
 
-    <main class="mx-auto">
+    <main class="mx-auto max-w-screen-lg ">
       <landingPage />
     </main>
 

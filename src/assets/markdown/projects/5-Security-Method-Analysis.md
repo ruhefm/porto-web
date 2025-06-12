@@ -9,13 +9,13 @@ tools: [
     {imagePath: '/figma.svg', alt: 'Figma'},
     {imagePath: '/canva.svg', alt: 'Canva'},
 ]
-tags: ['self', 'network']
+tags: ['personal', 'network']
 ---
 
 # **Security Method Analysis on Mikrotik**
 This research demonstrates that using raw rules provides better performance compared to filter rules in Mikrotik. The evaluation was conducted using the TOPSIS multi-criteria decision-making method.
 
-## **How it Works?**
+> ## **How it Works?**
 
 ![Topsis-Entropy](/skripsi2.png)
 The topology is: there are server / internal network to be defended by Mikrotik Router. All of the traffic from outside is filtered through Mikrotik, I ignore the use of Honeypot at DMZ, because it is using external power from Mikrotik. So the focused is using all the feature inside Mikrotik like filter rule drop, tarpit, reject and raw drop.
@@ -67,6 +67,6 @@ def pilih(c):
 pilih(c=int(input("Masukan 1 untuk udp, 2 untuk tcp:\nInput: ")))
 ```
 
-## Explore This Project
+> ## Explore This Project
 
 Take a Look @ My Lovely [Bachelor's Thesis](/skripsiHeru.pdf). This is not my enchanced version, the enchanced version is in english and more simple.
