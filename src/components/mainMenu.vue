@@ -27,4 +27,26 @@ const links = [
     { title: 'Projects', link:'/projects' },
     // { title: 'Contact', link:'mailto:herupurnama.work@gmail.com' },
 ]
+
+import { ref, onMounted, onUnmounted } from 'vue'
+
+const scrolled = ref(false) 
+
+const handleScroll = () => {
+  if (window.scrollY > 0) { 
+    scrolled.value = true; 
+  } else {
+    scrolled.value = false;
+  }
+};
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+  handleScroll(); 
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
+
 </script>
