@@ -1,13 +1,13 @@
 <template>
   <header class="">
-<div class="mx-auto py-4 px-4">
-<section class="py-10 sm:py-14 text-center">
+<div class="mx-auto">
+<section class="my-6 sm:my-10 text-center">
   <h1 class="text-5xl font-mont tracking-tight text-gray-100 py-2">Decoding Heru</h1>
   <p class="bg-gradient-to-tr from-gray-600 to-gray-300 to-65% opacity-90 inline-block text-transparent bg-clip-text text-lg sm:text-xl max-w-xl mx-auto font-roboto text-gray-300">
 From grassroot to grass — a story rooted in survival, raised in simplicity, and growing in complexity.
   </p>
   </section>
-  <div class="flex items-center justify-center sm:justify-normal gap-4">
+  <div class="flex items-center justify-center sm:justify-normal gap-4 my-2">
     <img src="/heru-kaca.png" class="w-24 h-24 hidden sm:block">
     <div>
 <div class="flex items-center justify-center sm:hidden pb-2 sm:pb-4">
