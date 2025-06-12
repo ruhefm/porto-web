@@ -50,7 +50,7 @@ import { RouterLink } from 'vue-router'
 
   window.onload = function () {
     const sentences = [
-      "Hi!",
+      "Hi! Tap To Skip",
       "I'm Heru Purnama",
       "An IT Specialist",
       "From Networking & Systems to Software Engineering",
@@ -65,8 +65,8 @@ import { RouterLink } from 'vue-router'
 
     let currentSentence = 0;
     let charIndex = 0;
-    let speed = 120;
-    let wait = 1200;
+    let speed = 100;
+    let wait = 500;
     let typing = false;
     let typingTimeout = null;
     document.addEventListener("click", Next);

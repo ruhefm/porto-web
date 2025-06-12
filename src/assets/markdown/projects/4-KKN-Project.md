@@ -7,7 +7,7 @@ size: w-2/3
 tools: [
     {imagePath: '/figma.svg', alt: 'Python'},
 ]
-tags: ['self', 'volunteer']
+tags: ['team', 'volunteer']
 ---
 
 # **Short Story**

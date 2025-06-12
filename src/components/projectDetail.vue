@@ -1,7 +1,9 @@
 <template>
   <section class="prose prose-invert max-w-none">
     <div v-if="htmlContent" v-html="htmlContent" />
-    <div v-else>Loading...</div>
+    <div v-else class="flex items-center justify-center min-h-screen">
+    <div class="loading"></div>
+    </div>
   </section>
 </template>
 

