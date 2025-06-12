@@ -8,6 +8,7 @@ tools: [
     {imagePath: '/django.svg', alt: 'Django'},
     {imagePath: '/react.svg', alt: 'React'},
 ]
+tags: ['team', 'apps']
 ---
 
 # **Relate Project**

@@ -6,6 +6,7 @@ size: max-w-screen-2xl
 tools: [
     {imagePath: '/figma.svg', alt: 'Figma'},
 ]
+tags: ['self', 'design']
 ---
 
 # **UI Project**

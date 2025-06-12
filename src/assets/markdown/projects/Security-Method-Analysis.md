@@ -9,6 +9,7 @@ tools: [
     {imagePath: '/figma.svg', alt: 'Figma'},
     {imagePath: '/canva.svg', alt: 'Canva'},
 ]
+tags: ['self', 'network']
 ---
 
 # **Security Method Analysis on Mikrotik**
@@ -23,3 +24,7 @@ The topology is: there are server / internal network to be defended by Mikrotik 
 
 
 ![Skripsi Image](/skripsi.png)
+
+## Explore This Project
+
+Take a Look @ My Lovely [Bachelor's Thesis](/skripsiHeru.pdf). This is not my enchanced version, the enchanced version is in english and more simple.

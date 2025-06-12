@@ -59,17 +59,26 @@ loadMarkdown()
     text-align:justify;
     margin:1rem auto;
 }
+.prose :deep(strong){
+    color: aliceblue;
+}
 .prose :deep(h1){
     margin:1rem auto;
     font-size: xx-large;
-    font-family: cursive;;
+    font-family: 'Dancing Script', cursive;
     line-height: 1;
+    color: azure;
 }
 .prose :deep(h2){
     margin:1rem auto;
     font-size: x-large;
-    font-family: cursive;;
+    font-family: 'Dancing Script', cursive;
+    color: aliceblue;
 }
+.prose :deep(h3){
+    color: aliceblue;
+    font-size: medium;
+  }
 .prose :deep(ol ul li){
     margin:1rem auto;
 }
