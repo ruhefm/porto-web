@@ -48,6 +48,7 @@ for (const path in markdownFilesList) {
     size: attributes.size || '',
     images: attributes.images || [],
     tools: attributes.tools || [],
+    tags: attributes.tags || [],
   })
 }
 </script>

@@ -25,6 +25,7 @@ const emailSubject = "Your_Title - from herupurnama.com"
 const links = [
     { title: 'About', link:'/about' },
     { title: 'Projects', link:'/projects' },
+    { title: 'Notes', link:'/notes' },
     // { title: 'Contact', link:'mailto:herupurnama.work@gmail.com' },
 ]
 
