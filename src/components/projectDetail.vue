@@ -21,7 +21,7 @@ const files = import.meta.glob('@/assets/markdown/projects/*.md', { query: '?raw
 
 const loadMarkdown = async () => {
   const filePath = `/src/assets/markdown/projects/${slug}.md`
-  const file = files[`/src/assets/markdown/projects/${slug}.md`]
+  const file = files[filePath]
 
   if (!file) {
     htmlContent.value = `<div class="min-h-screen flex flex-col items-center justify-center text-center text-gray-300 dark:text-gray-700">

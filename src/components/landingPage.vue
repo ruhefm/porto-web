@@ -2,7 +2,8 @@
   <div class="min-h-screen flex items-center justify-center max-w-screen-2xl">
         <div id="container" class="text-3xl sm:text-6xl font-mont">
           <div id="final" class="justify-left leading-relaxed text-left">
-            <h1>Heru Purnama</h1>
+            <!-- <h1>Heru Purnama</h1> -->
+            <div id="ketik" class="blinking-cursor text-left"></div>
             <h2 class="font-robo text-xl">Network & System Engineer, Software Engineer, Hunter.</h2>
             <p class="font-robo text-xl"><RouterLink to="/about" class="text-teal-600">Get to know more About Me</RouterLink></p>
             <div class="flex items-center">
@@ -14,7 +15,6 @@ Resume</button></a>
 <a href="https://www.linkedin.com/in/heru-purnama/" target="_blank"><img src="/linkedin.svg" class="w-14 h-14 mx-1 py-1 invert"/></a>
 </div>
           </div>
-    <div id="ketik" class="blinking-cursor text-left"></div>
 </div>
 
   </div>
@@ -47,8 +47,9 @@ Resume</button></a>
 
 <script setup>
 import { RouterLink } from 'vue-router'
+import { onMounted, ref } from 'vue'
 
-  window.onload = function () {
+  onMounted(() => {
     const sentences = [
       "Hi! Tap To Skip",
       "I'm Heru Purnama",
@@ -61,7 +62,7 @@ import { RouterLink } from 'vue-router'
     const final = document.getElementById("final");
     const typewriter = document.getElementById("ketik");
 
-    final.remove();
+    // final.remove();
 
     let currentSentence = 0;
     let charIndex = 0;
@@ -105,9 +106,10 @@ import { RouterLink } from 'vue-router'
     }
 
     function showFinalDiv() {
-      typewriter.remove();
-      container.appendChild(final);
+      // typewriter.remove();
+      // container.appendChild(final);
+      typewriter.textContent = "Heru Purnama"
     }
     startTyping();
-  };
+  });
 </script>
