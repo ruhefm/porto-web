@@ -11,9 +11,9 @@
 {{link.title}}
 </RouterLink>
 </div>
-  <a :href="`mailto:herupurnama.work@gmail.com?subject=${emailSubject}`" active-class="text-indigo-500 active" class="mx-2 px-2 font-semibold flex items-center gap-2 hover:text-indigo-400">
+  <!-- <a :href="`mailto:herupurnama.work@gmail.com?subject=${emailSubject}`" active-class="text-indigo-500 active" class="mx-2 px-2 font-semibold flex items-center gap-2 hover:text-indigo-400">
   Contact
-  </a>
+  </a> -->
 </div>
 </nav>
 </template>
