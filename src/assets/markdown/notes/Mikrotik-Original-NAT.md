@@ -4,7 +4,7 @@ desc: Solving an issue where Mikrotik's dst-NAT causes the source IP to be repla
 images: []
 size:
 tools: []
-tags: ['NAT', 'Mikrotik', 'Firewall', 'Networking', 'Firewall', 'Networking']
+tags: ['NAT', 'Mikrotik', 'Firewall', 'Networking',]
 ---
 
 # Mikrotik NAT and Preserving Original Source IP

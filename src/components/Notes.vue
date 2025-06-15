@@ -1,5 +1,5 @@
 <template>
-    <section class="text-justify animate-daribawah grid-cols-1 md:grid-cols-2 lg:grid-cols-3" v-if="notes.length">
+    <section class="text-justify animate-daribawah grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3" v-if="notes.length">
 
     <div v-for="note in notes" :key="note.slug">
     <RouterLink :to="`/notes/${note.slug}`">
