@@ -18,6 +18,13 @@ const routes = [
   { path: '/projects/:slug', name: 'projectDetail', component: projectDetail, meta: { title: 'Projects | Heru Purnama' } },
   { path: '/notes', name: 'Notes', component: Notes, meta: { title: 'Notes | Heru Purnama' } },
   { path: '/notes/:slug', name: 'noteDetail', component: noteDetail, meta: { title: 'Notes | Heru Purnama' } },
+  { path: '/shortcut/smart-home', redirect: '/projects/3-Smart-Home' },
+  { path: '/shortcut/relate-project', redirect: '/projects/1-Relate-Project' },
+  { path: '/shortcut/kkn', redirect: '/projects/4-KKN-Project' },
+  { path: '/shortcut/security-analysis', redirect: '/projects/5-Security-Method-Analysis' },
+
+
+
 
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
 
