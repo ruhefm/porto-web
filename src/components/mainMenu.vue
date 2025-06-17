@@ -19,10 +19,17 @@
 </template>
 
 
-<script setup>
+<script setup lang="ts">
 import { RouterLink } from 'vue-router'
-const emailSubject = "Your_Title - from herupurnama.com"
-const links = [
+
+// const emailSubject = "Your_Title - from herupurnama.com"
+
+interface link {
+    title: string;
+    link: string;
+}
+
+const links : link[] = [
     { title: 'About', link:'/about' },
     { title: 'Projects', link:'/projects' },
     { title: 'Notes', link:'/notes' },

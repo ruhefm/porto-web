@@ -16,8 +16,17 @@
   </section>
 </template>
 
-<script setup>
-const educations = [
+<script setup lang="ts">
+
+interface Education {
+  title: string;
+  dateRange: string;
+  path: string;
+  major: string;
+  desc: string;
+}
+
+const educations : Education[] = [
   { title:'Universitas Pendidikan Indonesia', dateRange:'APR 2019 - AUG 2023', path:'upi.png', major:'Bachelor of Electrical Engineering', 
   desc: `•	Actively participating in the Kampus Merdeka program.
 •	Engaged in server management for ee.upi.edu, involving routers, switches, firewalls, NAT, and port forwarding, Proxmox.

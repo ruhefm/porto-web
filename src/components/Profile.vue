@@ -7,10 +7,10 @@
         <div v-scroll id="scrollGallery" class="overflow-x-auto sm:overflow-x-hidden cursor-grab select-none whitespace-nowrap items-center justify-center mx-auto">
           <div class="animate-slide">
           <div class="inline-block space-x-10" v-for="(img, index) in techStackImages" :key="index">
-          <img :src="`/${img.path}`" :alt="img.name" :class="`filter ${img.filter} mx-2 w-16 h-16 select-none pointer-events-none`" draggable="=false">
+          <img :src="`/${img.path}`" :alt="img.name" :class="`filter ${img.filter} mx-2 w-16 h-16 select-none pointer-events-none`" draggable="false">
           </div>
           <div class="inline-block space-x-10" v-for="(img, index) in techStackImages" :key="index">
-          <img :src="`/${img.path}`" :alt="img.name" :class="`filter ${img.filter} mx-2 w-16 h-16 select-none pointer-events-none`" draggable="=false">
+          <img :src="`/${img.path}`" :alt="img.name" :class="`filter ${img.filter} mx-2 w-16 h-16 select-none pointer-events-none`" draggable="false">
           </div>
           </div>
         </div>
@@ -34,8 +34,15 @@ Implemented and monitored database replication strategies to ensure high availab
 }
 </style>
 
-<script setup>
-const techStackImages = [
+<script setup lang="ts">
+
+interface TechStackImage {
+  name: string;
+  path: string;
+  filter?: string;
+}
+
+const techStackImages: TechStackImage[] = [
   {name: "vmware", path: "vmware-1.svg", filter:'invert'},
   {name: "citrix", path: "Citrix_Systems-Logo.wine.svg", filter:'invert'},
   {name: "cisco", path: "cisco.svg"},
@@ -47,10 +54,5 @@ const techStackImages = [
   {name: "microsoft", path: "Microsoft-Logo.wine.svg",},  
   {name: "mysql", path: "MySQL-Logo.wine.svg"},
   {name: "msql", path: "microsoft-sql-server-logo-svgrepo-com.svg", filter: "invert"},
-]
-
-const rolesExperience = [
-  {title: "Network & System Engineer", company: "Teradata Megah", location: "Bandung"}
-
 ]
 </script>

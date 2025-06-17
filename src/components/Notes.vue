@@ -15,11 +15,27 @@
     </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 import fm from 'front-matter'
 
-const notes = ref([])
+interface ProjectTool {
+  imagePath: string
+  alt: string
+}
+
+interface Project {
+  slug: string
+  title: string
+  desc: string
+  size: string
+  images: string[]
+  tools: ProjectTool[]
+  tags: string[]
+}
+
+
+const notes = ref<Project[]>([])
 
 const markdownFilesList = import.meta.glob(
   '@/assets/markdown/notes/*.md',
@@ -28,19 +44,26 @@ const markdownFilesList = import.meta.glob(
 
 for (const path in markdownFilesList) {
   const rawContent = markdownFilesList[path]
-  const { attributes } = fm(rawContent)
-  const slug = path.split('/').pop().replace('.md', '')
+  const { attributes } = fm(rawContent as string)
+  const slug = (path.split('/').pop() ?? '').replace('.md', '')
 
-  console.log('YAML data:', attributes)
+  const attrs = attributes as {
+    title?: string
+    desc?: string
+    size?: string
+    images?: string[]
+    tools?: ProjectTool[]
+    tags?: string[]
+  }
 
   notes.value.push({
     slug,
-    title: attributes.title || slug,
-    desc: attributes.desc || '',
-    size: attributes.size || '',
-    images: attributes.images || [],
-    tools: attributes.tools || [],
-    tags: attributes.tags || [],
+    title: attrs.title || slug,
+    desc: attrs.desc || '',
+    size: attrs.size || '',
+    images: attrs.images || [],
+    tools: attrs.tools || [],
+    tags: attrs.tags || [],
   })
 }
 </script>

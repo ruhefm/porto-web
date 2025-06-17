@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex items-center justify-center max-w-screen-2xl">
+  <div class="min-h-screen flex items-center justify-center max-w-2xl mx-auto">
         <div id="container" class="text-3xl sm:text-6xl font-mont">
           <div id="final" class="justify-left leading-relaxed text-left">
             <!-- <h1>Heru Purnama</h1> -->
@@ -45,12 +45,15 @@ Resume</button></a>
     }
   </style>
 
-<script setup>
+<script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import { onMounted, ref } from 'vue'
+import { onMounted } from 'vue'
 
   onMounted(() => {
-    const sentences = [
+
+    interface SentencesArray extends Array<string> {}
+
+    const sentences: SentencesArray = [
       "Hi! Tap To Skip",
       "I'm Heru Purnama",
       "An IT Specialist",
@@ -58,9 +61,14 @@ import { onMounted, ref } from 'vue'
       "I automate my work with code"
     ];
 
-    const container = document.getElementById("container");
-    const final = document.getElementById("final");
-    const typewriter = document.getElementById("ketik");
+    interface TypewriterElement extends HTMLElement {
+    textContent: string | null;
+    }
+
+    const typewriter = document.getElementById("ketik") as TypewriterElement | null;
+
+    // const container = document.getElementById("container");
+    // const final = document.getElementById("final");
 
     // final.remove();
 
@@ -69,17 +77,28 @@ import { onMounted, ref } from 'vue'
     let speed = 100;
     let wait = 500;
     let typing = false;
-    let typingTimeout = null;
+    let typingTimeout: ReturnType<typeof setTimeout> | null = null;
+
+
+
+
+
+
+
     document.addEventListener("click", Next);
-    function typeSentence(sentence, callback) {
+    interface TypeSentenceCallback {
+      (): void;
+    }
+
+    function typeSentence(sentence: string, callback: TypeSentenceCallback): void {
       typing = true;
       if (charIndex <= sentence.length) {
-        typewriter.textContent = sentence.substring(0, charIndex);
-        charIndex++;
-        typingTimeout = setTimeout(() => typeSentence(sentence, callback), speed);
+      typewriter!.textContent = sentence.substring(0, charIndex);
+      charIndex++;
+      typingTimeout = setTimeout(() => typeSentence(sentence, callback), speed);
       } else {
-        typing = false;
-        callback();
+      typing = false;
+      callback();
       }
     }
 
@@ -97,8 +116,8 @@ import { onMounted, ref } from 'vue'
 
     function Next() {
       if (typing) {
-        clearTimeout(typingTimeout);
-        typewriter.textContent = sentences[currentSentence];
+        clearTimeout(typingTimeout !== null ? typingTimeout : undefined)
+        typewriter!.textContent = sentences[currentSentence];
         typing = false;
         currentSentence++;
         setTimeout(startTyping, wait);
@@ -108,7 +127,7 @@ import { onMounted, ref } from 'vue'
     function showFinalDiv() {
       // typewriter.remove();
       // container.appendChild(final);
-      typewriter.textContent = "Heru Purnama"
+      typewriter!.textContent = "Heru Purnama"
     }
     startTyping();
   });

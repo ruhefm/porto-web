@@ -7,6 +7,6 @@
   </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const skills = ["Python", "Flask", "Django", "Paramiko", "JavaScript", "Vue.js", "Express", 'Mikrotik', 'OpenVPN', 'IPSec', 'BGP', 'Nginx', 'Apache Tomcat', 'VMware', 'Citrix']
 </script>

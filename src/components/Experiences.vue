@@ -22,8 +22,17 @@
   </section>
 </template>
 
-<script setup>
-const experiences = [
+<script setup lang="ts">
+
+interface Experience {
+  title: string;
+  dateRange: string;
+  path: string;
+  place: string;
+  desc: string;
+}
+
+const experiences : Experience[] = [
 
 
   { title:'Scalable Web Service With GoLang', dateRange:'FEB 2024 - MAR 2024', path:'/hacktiv8.png', place:'Hacktiv8 - Indonesia, Remote', 

@@ -32,8 +32,13 @@
 </section>
 </template>
 
-<script setup>
-const musicPreferences = [
+<script setup lang="ts">
+interface musicPreference {
+  title: string;
+  link: string;
+  linkEmbed: string;
+}
+const musicPreferences : musicPreference[] = [
     {title:"Proof of a Hero - All Versions", link:"https://www.youtube.com/watch?v=kIJJ2XK1Xt4", linkEmbed:"https://www.youtube.com/embed/kIJJ2XK1Xt4"},
   {
     title: "He's a Pirate",
