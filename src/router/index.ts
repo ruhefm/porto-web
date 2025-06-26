@@ -28,7 +28,7 @@ const routes = [
 
 
 
-  { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound, meta: { title: '404 | Heru Purnama' } },
 
 
 ]
