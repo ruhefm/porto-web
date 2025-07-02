@@ -54,10 +54,7 @@ import DownloadIcon from '@/components/icons/DownloadIcon.vue';
     interface SentencesArray extends Array<string> {}
 
     const sentences: SentencesArray = [
-      "Hi! Tap To Skip",
       "I'm Heru Purnama",
-      "An IT Specialist",
-      "From Networking & Systems to Software Engineering",
       "I automate my work with code"
     ];
 
