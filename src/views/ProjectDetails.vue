@@ -9,5 +9,5 @@
 
 <script setup lang="ts">
 import ProjectDetail from '@/components/Projects/ProjectDetail.vue'
-import mainMenu from '@/components/MainMenu.vue'
+import mainMenu from '@/components/MainMenus.vue'
 </script>
