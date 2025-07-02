@@ -1,6 +1,6 @@
 ---
 title: SEO in Vue Vite
-desc: 
+desc: This is to enable customize SEO meta inside <head> to each file. Using SSG/SSR to be rendered at built moment so it recognized by robots.txt.
 images: []
 size:
 tools: []

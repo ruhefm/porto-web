@@ -22,7 +22,8 @@ const routes = [
   { path: '/shortcut/relate-project', redirect: '/projects/1-Relate-Project' },
   { path: '/shortcut/kkn', redirect: '/projects/4-KKN-Project' },
   { path: '/shortcut/security-analysis', redirect: '/projects/5-Security-Method-Analysis' },
-  { path: '/shortcut/cv', redirect: '/CV_Heru%20Purnama_Network_Public.pdf' },
+  { path: '/shortcut/cv', redirect: '/HeruPurnama_CV.pdf' },
+  { path: '/shortcut/github', redirect: 'https://github.com/ruhefm' },
   
 
 

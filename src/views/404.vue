@@ -7,7 +7,7 @@
     <p class="mt-4 text-xl">Oops! Page Not Found.</p>
     <router-link
       to="/"
-      class="my-4 flex items-center gap-2 rounded bg-gradient-to-br from-slate-800 to-slate-900 to-75% p-2 text-xl sm:p-3"
+      class="button my-4 flex items-center gap-2 rounded bg-gradient-to-br from-slate-800 to-slate-900 to-75% p-2 text-xl sm:p-3"
     >
       <homeIcon />
       Go Home

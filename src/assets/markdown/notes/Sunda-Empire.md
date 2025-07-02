@@ -1,6 +1,6 @@
 ---
 title: Sunda Empire
-desc: Tarumanagara, Galuh and Pasundan.
+desc: Tarumanagara, Galuh, and Pasundan — this note is my long-term story to preserve Sundanese history. Even if the culture vanishes from this world, it will live on in my legacy.
 images: []
 size:
 tools: []

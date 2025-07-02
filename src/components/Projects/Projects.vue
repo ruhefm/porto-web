@@ -13,10 +13,8 @@
     <img v-for="(tool,index) in project.tools" :key="index" :src="tool.imagePath" :class="`select-none w-8  h-8 mr-2 rounded-full bg-slate-300 p-1 object-fill`" :alt="tool.alt">
     </div>
       <div class="my-4 mx-auto">
-        <RouterLink :to="`/projects/${project.slug}`">
-        <button class="bg-gradient-to-br from-slate-700 to-slate-900 to-75% p-2 text-sm">
+        <RouterLink :to="`/projects/${project.slug}`" class="button bg-gradient-to-br from-slate-700 to-slate-900 to-75% p-1 text-sm">
         Read More
-        </button>
     </RouterLink>
       </div>
     </div>

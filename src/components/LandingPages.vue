@@ -7,9 +7,16 @@
             <h2 class="font-robo text-xl">Network & System Engineer, Software Engineer, Hunter.</h2>
             <p class="font-robo text-xl"><RouterLink to="/about" class="text-teal-600">Get to know more About Me</RouterLink></p>
             <div class="flex items-center">
-              <a target="_blank" href="HeruPurnama_CV.pdf"><button class="flex gap-2 bg-gradient-to-br from-slate-800 to-slate-900 to-75% p-2 sm:p-3 rounded text-xl">
+              <a target="_blank" href="HeruPurnama_CV.pdf" class="button 
+              inline-flex items-center 
+              gap-2
+              text-xl
+              bg-gradient-to-br from-slate-800 to-slate-900 to-75% 
+              p-2 sm:p-3 
+              border-[1px] border-transparent rounded
+              ">
                 <DownloadIcon />
-Resume</button></a>
+Resume</a>
 <a href="https://github.com/ruhefm" target="_blank"><img src="/github.svg" class="w-14 h-14 mx-1 py-1 invert"/></a>
 <a href="https://www.linkedin.com/in/heru-purnama/" target="_blank"><img src="/linkedin.svg" class="w-14 h-14 mx-1 py-1 invert"/></a>
 </div>

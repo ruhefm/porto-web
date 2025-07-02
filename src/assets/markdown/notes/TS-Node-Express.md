@@ -1,6 +1,6 @@
 ---
 title: TS Node Express Starter Pack
-desc: 
+desc: This is my express typescript starter pack to built minimal API.
 images: []
 size:
 tools: []

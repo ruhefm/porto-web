@@ -1,6 +1,6 @@
 ---
 title: OpenSSL convert to PKCS12 to JKS
-desc: 
+desc: This it to convert .cert into .p12 and .jks, the usage is for SSL management in web server.
 images: []
 size:
 tools: []

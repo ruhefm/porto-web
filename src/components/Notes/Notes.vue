@@ -2,9 +2,9 @@
     <section class="text-justify animate-daribawah grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3" v-if="notes.length">
 
     <div v-for="note in notes" :key="note.slug">
-        <div class="p-5 my-4 mr-2 max-w-sm rounded-3xl border border-neutral-400 overflow-hidden">
+        <div class="p-5 my-4 mr-2 max-w-sm rounded-3xl border border-neutral-400 overflow-hidden hover:border-teal-800 transition-all duration-300 min-h-72 max-h-72">
     <RouterLink :to="`/notes/${note.slug}`">
-        <h1 class="font-mont text-lg sm:text-xl font-semibold py-4 text-left">{{note.title}}</h1>
+        <h1 class="text-lg sm:text-lg font-semibold py-4 text-left">{{note.title}}</h1>
     <p class="text-sm my-1">{{note.desc}}</p>
     </RouterLink>
     <div v-scroll class="overflow-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-transparent">
