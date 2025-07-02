@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import mainMenu from '@/components/MainMenu.vue'
+import mainMenu from '@/components/MainMenus.vue'
 import Header from '@/components/Header.vue'
 import aboutMenu from '@/components/About/AboutMenu.vue'
 import Education from '@/components/About/Education.vue'

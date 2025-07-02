@@ -16,6 +16,6 @@
 </template>
 
 <script setup lang="ts">
-import mainMenu from '@/components/MainMenu.vue'
+import mainMenu from '@/components/MainMenus.vue'
 import homeIcon from '@/components/icons/HomeIcon.vue'
 </script>

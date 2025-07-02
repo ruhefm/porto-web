@@ -7,5 +7,5 @@
 </template>
 
 <script setup lang="ts">
-import landingPage from '@/components/landingPage.vue'
+import landingPage from '@/components/LandingPages.vue'
 </script>

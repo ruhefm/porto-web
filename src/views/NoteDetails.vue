@@ -9,5 +9,5 @@
 
 <script setup lang="ts">
 import noteDetail from '@/components/Notes/NoteDetail.vue'
-import mainMenu from '@/components/MainMenu.vue'
+import mainMenu from '@/components/MainMenus.vue'
 </script>
