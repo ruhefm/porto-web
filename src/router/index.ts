@@ -7,7 +7,7 @@ import NotFound from '@/views/404.vue'
 import Projects from '@/views/Projects.vue'
 import projectDetail from '@/views/ProjectDetails.vue'
 import Notes from '@/views/Notes.vue'
-import noteDetail from '@/views/NoteDetail.vue'
+import noteDetail from '@/views/NoteDetails.vue'
 
 const routes = [
   { path: '/', name: 'LandingPage', component: Landing, meta: { title: 'Welcome | Heru Purnama' } },
