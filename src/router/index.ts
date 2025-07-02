@@ -5,9 +5,9 @@ import Experiences from '@/views/Experiences.vue'
 import Landing from '@/views/Landing.vue'
 import NotFound from '@/views/404.vue'
 import Projects from '@/views/Projects.vue'
-import projectDetail from '@/views/projectDetail.vue'
+import projectDetail from '@/views/ProjectDetail.vue'
 import Notes from '@/views/Notes.vue'
-import noteDetail from '@/views/noteDetail.vue'
+import noteDetail from '@/views/NoteDetail.vue'
 
 const routes = [
   { path: '/', name: 'LandingPage', component: Landing, meta: { title: 'Welcome | Heru Purnama' } },

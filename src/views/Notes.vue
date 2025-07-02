@@ -7,6 +7,6 @@
 </template>
 
 <script setup lang="ts">
-import mainMenu from '@/components/mainMenu.vue'
-import Notes from '@/components/Notes.vue'
+import mainMenu from '@/components/MainMenu.vue'
+import Notes from '@/components/Notes/Notes.vue'
 </script>

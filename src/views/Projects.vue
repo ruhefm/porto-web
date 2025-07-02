@@ -8,6 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import Projects from '@/components/Projects.vue'
-import mainMenu from '@/components/mainMenu.vue'
+import Projects from '@/components/Projects/Projects.vue'
+import mainMenu from '@/components/MainMenu.vue'
 </script>

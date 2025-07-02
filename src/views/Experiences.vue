@@ -10,8 +10,8 @@
 </template>
 
 <script setup lang="ts">
-import mainMenu from '@/components/mainMenu.vue'
+import mainMenu from '@/components/MainMenu.vue'
 import Header from '@/components/Header.vue'
-import aboutMenu from '@/components/aboutMenu.vue'
-import Experiences from '@/components/Experiences.vue'
+import aboutMenu from '@/components/About/AboutMenu.vue'
+import Experiences from '@/components/About/Experiences.vue'
 </script>

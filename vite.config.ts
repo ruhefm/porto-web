@@ -3,6 +3,12 @@ import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'url'
 // https://vite.dev/config/
 export default defineConfig({
+  server: {
+    watch:
+      {
+        usePolling: true,
+      }
+  },
   plugins: [vue()],
   resolve: {
     alias: {
