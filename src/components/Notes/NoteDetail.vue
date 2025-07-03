@@ -7,7 +7,7 @@
   </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useRoute } from 'vue-router'
 import { ref } from 'vue'
 import fm from 'front-matter'
@@ -36,7 +36,7 @@ notes</button></a>
   }
 
 const raw = await file()
-const { body } = fm(raw)
+const { body } = fm(raw as string)
 const md = markdownIt()
 htmlContent.value = md.render(body)
 
