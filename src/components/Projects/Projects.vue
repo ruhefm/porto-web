@@ -1,6 +1,12 @@
 <template>
-    <section class="text-justify animate-daribawah" v-if="projects.length">
-    <div v-for="project in projects" :key="project.slug">
+    <section class="text-justify" v-if="projects.length">
+    <div v-for="project in projects" :key="project.slug" class="
+    border-[1px] border-zinc-700 
+    p-3 sm:p-6 my-4 
+    first:my-0 last:my-0
+  hover:border-amber-50
+    transition-all duration-300
+    animate-daribawah">
     <RouterLink :to="`/projects/${project.slug}`">
         <h1 class="font-mont text-3xl sm:text-4xl md:text-5xl font-semibold py-4 text-left">{{project.title}}</h1>
     </RouterLink>
@@ -13,7 +19,14 @@
     <img v-for="(tool,index) in project.tools" :key="index" :src="tool.imagePath" :class="`select-none w-8  h-8 mr-2 rounded-full bg-slate-300 p-1 object-fill`" :alt="tool.alt">
     </div>
       <div class="my-4 mx-auto">
-        <RouterLink :to="`/projects/${project.slug}`" class="button bg-gradient-to-br from-slate-700 to-slate-900 to-75% p-1 text-sm">
+        <RouterLink :to="`/projects/${project.slug}`" class="
+        bg-gradient-to-br from-slate-700 to-slate-900 to-75% 
+        p-2 
+        text-sm
+        border-2 border-transparent rounded
+        hover:border-2 hover:border-amber-100
+        focus:outline-none focus:ring-1 focus:ring-amber-100 focus:ring-offset-2
+        transition-all duration-300">
         Read More
     </RouterLink>
       </div>
