@@ -9,7 +9,7 @@ tags: ['Kombucha', 'Beverages', 'Drinks', 'Analysis']
 # Kombucha
 
 ## The Philosophy of Kombucha
-**Kombucha** is kind of beverages from fermentated tea. It's involving bacterias and yeast to generate kombucha. As google said, it came from East Asia Tiongkok around 220 before century. The name of kombucha itself came from Nihon　*日本　コンブチャ*. In the first twenty century the kombucha spread to the Asia and Europe, and leading to the west around 1960. The mass production of kombucha start at 1990.
+**Kombucha** is kind of beverages from fermented tea. It's involving bacterias and yeast to generate kombucha. As google said, it came from East Asia Tiongkok around 220 before century. The name of kombucha itself came from Nihon　*日本　コンブチャ*. In the first twenty century the kombucha spread to the Asia and Europe, and leading to the west around 1960. The mass production of kombucha start at 1990.
 
 ## My Research on Kombucha 
 For my first time activating kombucha the steps are:
