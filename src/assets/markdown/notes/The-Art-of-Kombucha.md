@@ -21,3 +21,15 @@ For my first time activating kombucha the steps are:
 - Then I insert the scoby and the kombucha starter. And then put a cloth on top of it to prevent any objects to enter the lovely kombucha room.
 - This step is analyzing time.
 
+### 0-day of kombucha
+
+The kombucha seems like normal tea.
+
+### 1-day of kombucha
+
+It starts smelling like *peuyeum* (fermented tape) in sunda. There something floating like mucus.
+
+### 2-day of kombucha
+
+The mucus in the day-1 is float to the top of the tea, and then starts to close the area due to the need of oxygen (acetobacter).
+
