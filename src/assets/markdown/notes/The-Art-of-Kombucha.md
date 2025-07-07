@@ -23,6 +23,8 @@ For my first time activating kombucha the steps are:
 
 ### 0-day of kombucha
 
+![Day-0 Kombucha](/kombucha0.jpeg)
+
 The kombucha seems like normal tea.
 
 ### 1-day of kombucha
@@ -30,6 +32,8 @@ The kombucha seems like normal tea.
 It starts smelling like *peuyeum* (fermented tape) in sunda. There something floating like mucus.
 
 ### 2-day of kombucha
+
+![Day-2 Kombucha](/kombucha2.jpeg)
 
 The mucus in the day-1 is float to the top of the tea, and then starts to close the area due to the need of oxygen (acetobacter).
 
