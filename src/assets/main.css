@@ -21,6 +21,15 @@ body {
   @apply m-0 min-w-[320px] min-h-screen;
 }
 
+.texture {
+  opacity: 0.8;
+  background-image:  
+  linear-gradient(320deg, #272727 10%, #000211 10%);
+  background-position:  10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
+}
+
 .button {
   cursor: pointer;
   transition: border-color 0.25s;
