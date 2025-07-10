@@ -37,3 +37,22 @@ It starts smelling like *peuyeum* (fermented tape) in sunda. There something flo
 
 The mucus in the day-1 is float to the top of the tea, and then starts to close the area due to the need of oxygen (acetobacter).
 
+### 3-day of kombucha
+
+![Day-3 Kombucha](/kombucha3.jpeg)
+
+At the third day, the film is easily visible.
+
+### 4-day of kombucha
+
+![Day-4 Kombucha](/kombucha4.jpeg)
+![Day-4-2 Kombucha](/kombucha4-2.jpeg)
+
+At the fourth day, the film is getting thicker, and the scoby at the bottom reshaped to triangle.
+
+### 5-day of kombucha
+
+![Day-5 Kombucha](/kombucha5.jpeg)
+
+At the fifth day, the film is getting more thicker, at the bottom of the film there are bubbles (maybe soda).
+
