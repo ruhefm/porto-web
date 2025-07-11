@@ -22,6 +22,8 @@ Kapitalisme menggerogoti suatu negara yang bersembunyi di balik jargon *free mar
 
 Kebebasan berekonomi melalui konsep *free market* nya justru menindas kebebasan hidup khalayak. Kebebasan berekonomi hanya bebas bagi para pemilik modal, apa yang akan dijual tanpa modal? Yang disebut "kebebasan memilih" justru mempersempit pilihan pada mereka-mereka yang disokong uang. Yang disebut "kebebasan berbicara" justru diawasi oleh aturan yang membungkam seolah-olah ditujukan untuk menjaga norma.
 
-Demokrasi sedang sekarat. Tapi kematian bukanlah akhir, melainkan panggilan untuk kelahiran sistem yang baru. Seperti renaissance di Eropa yang berarti kelahiran kembali, kita sedang berada di ambang zaman baru. 
+## Kelahiran Kembali
+
+**Demokrasi sedang sekarat**. Tapi kematian bukanlah akhir, melainkan panggilan untuk kelahiran sistem yang baru. Seperti renaissance di Eropa yang berarti kelahiran kembali, kita sedang berada di ambang zaman baru. 
 
 Seperti halnya renaissance yang diawali dari kegelapan abad pertengahan, masa ini pun tampak gelap dan penuh manipulasi. Tapi di balik kegelapan ini, terdapat harapan untuk menciptakan benih-benih perlawanan, pencerahan, dan rekonstruksi sistem yang lebih adil.
