@@ -8,7 +8,7 @@ tags: ['Demokrasi', 'Indonesia']
 ---
 # Demokrasi
 
-Demokrasi berasal dari *demos* dan *kratos*, secara sederhana memiliki arti kedaulatan berada di tangan rakyat. Akan tetapi kini kedaulatannya dicuri dari rakyat. Kebebasan yang diciptakan justru mengekang kebebasan yang lainnya. Dari rakyat, oleh rakyat, dan untuk rakyat, bukan ungkapan yang relevan lagi. Dari oligarki, oleh oligarki, untuk oligarki.
+Demokrasi berasal dari *demos* dan *kratos*, secara sederhana memiliki arti kedaulatan berada di tangan rakyat. Akan tetapi kini kedaulatannya dicuri dari rakyat. Kebebasan yang diciptakan justru mengekang kebebasan yang lainnya. Dari rakyat, oleh rakyat, dan untuk rakyat, bukan ungkapan yang relevan lagi. Kini ungkapan tersebut itu telah berubah menjadi: dari oligarki, oleh oligarki, untuk oligarki.
 
 Demokrasi, yang dahulu dielu-elukan sebagai jalan pembebasan rakyat dari tirani dan kekuasaan, kini menjelma menjadi tirani yang lebih halus, terstruktur, sistemik, dan lebih licik. Seakan-akan membenarkan sebuah cara kebusukan.
 
@@ -24,6 +24,4 @@ Kebebasan berekonomi melalui konsep *free market* nya justru menindas kebebasan 
 
 ## Kelahiran Kembali
 
-**Demokrasi sedang sekarat**. Tapi kematian bukanlah akhir, melainkan panggilan untuk kelahiran sistem yang baru. Seperti renaissance di Eropa yang berarti kelahiran kembali, kita sedang berada di ambang zaman baru. 
-
-Seperti halnya renaissance yang diawali dari kegelapan abad pertengahan, masa ini pun tampak gelap dan penuh manipulasi. Tapi di balik kegelapan ini, terdapat harapan untuk menciptakan benih-benih perlawanan, pencerahan, dan rekonstruksi sistem yang lebih adil.
+**Demokrasi sedang sekarat**. Tapi kematian bukanlah akhir, melainkan panggilan untuk kelahiran sistem yang baru. Seperti renaissance di Eropa yang berarti kelahiran kembali, kita sedang berada di ambang zaman baru. Seperti halnya renaissance yang diawali dari kegelapan abad pertengahan, masa ini pun tampak gelap dan penuh manipulasi. Tapi di balik kegelapan ini, terdapat harapan untuk menciptakan benih-benih perlawanan, pencerahan, dan rekonstruksi sistem yang lebih adil.
