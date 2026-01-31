@@ -35,6 +35,15 @@ interface Experience {
 const experiences : Experience[] = [
 
 
+{ title:'Network and System Engineer', dateRange:'June 2024 – Dec 2025', path:'/hacktiv8.png', place:'Bandung - Indonesia', 
+  desc: `•	Managing virtualization environments using VMware and Citrix.
+•	Implementing load balancing with Nginx and Citrix to optimize and distribute traffic efficiently.
+•	Database Replication, to ensure high availability data.
+•	Automating IPsec and OpenVPN tunnels for secure, rapid site-to-site deployments, integrated with Policy-Based Routing (PBR) and Network Address Translation (NAT).
+•	Administering network devices including Checkpoint, Mikrotik, and Aruba for security, routing, and wireless connectivity.
+•	Operating Extended Detection Response: XDR Bitdefender, EDR Eset to enchance endpoint security.
+`},
+
   { title:'Scalable Web Service With GoLang', dateRange:'FEB 2024 - MAR 2024', path:'/hacktiv8.png', place:'Hacktiv8 - Indonesia, Remote', 
   desc: `•	Developing code to import data from Excel, creating a REST API, and designing a minimal web game similar to Fallout Shelter.
 •	Creating MyGram API, which includes user management (login and register), photo uploads, commenting functionality, and social media interactions (post, get, put, delete) related to userIDs, and deploying it to Railway.`},

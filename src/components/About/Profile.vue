@@ -1,6 +1,15 @@
 <template>
-  <section class="">
+    <section class="">
     <h2 class="text-justify font-bold text-xl border-b pb-1"><a id="current-role" href="#current-role">Current Role</a></h2>
+    <ul class="text-justify mt-2">
+      <li>
+        <p class="max-w-56 sm:max-w-full"><strong class="text-white">Information Technology</strong> - LGERC</p>
+      </li>
+      <li></li>
+    </ul>
+  </section>
+  <section class="">
+    <h2 class="text-justify font-bold text-xl border-b pb-1"><a id="current-role" href="#current-role">Previous Role</a></h2>
     <ul class="text-justify mt-2">
       <li>
         <p class="max-w-56 sm:max-w-full"><strong class="text-white">Network and System Engineer</strong> - Teradata Megah</p>
