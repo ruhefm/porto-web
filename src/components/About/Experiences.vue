@@ -36,13 +36,13 @@ const experiences : Experience[] = [
 
 
 { title:'Network and System Engineer', dateRange:'June 2024 – Dec 2025', path:'/hacktiv8.png', place:'Bandung - Indonesia', 
-  desc: `•	Managing virtualization environments using VMware and Citrix.
+  desc: `Working at an IT solutions company serving the finance sector as part of a four-person team, supporting 40 internal users (including programmers and business support staff) and 6 banking clients. I coordinate with various partners, including ISPs and payment gateway providers, and am responsible for managing the Network and System Infrastructure, ensuring the Data Centre operates reliably 24/7. My responsibilities include:
+•	Managing virtualization environments using VMware and Citrix.
 •	Implementing load balancing with Nginx and Citrix to optimize and distribute traffic efficiently.
 •	Database Replication, to ensure high availability data.
 •	Automating IPsec and OpenVPN tunnels for secure, rapid site-to-site deployments, integrated with Policy-Based Routing (PBR) and Network Address Translation (NAT).
 •	Administering network devices including Checkpoint, Mikrotik, and Aruba for security, routing, and wireless connectivity.
-•	Operating Extended Detection Response: XDR Bitdefender, EDR Eset to enchance endpoint security.
-`},
+•	Operating Extended Detection Response: XDR Bitdefender, EDR Eset to enchance endpoint security.`},
 
   { title:'Scalable Web Service With GoLang', dateRange:'FEB 2024 - MAR 2024', path:'/hacktiv8.png', place:'Hacktiv8 - Indonesia, Remote', 
   desc: `•	Developing code to import data from Excel, creating a REST API, and designing a minimal web game similar to Fallout Shelter.

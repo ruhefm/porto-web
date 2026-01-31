@@ -8,6 +8,7 @@
       <li></li>
     </ul>
   </section>
+  <br/>
   <section class="">
     <h2 class="text-justify font-bold text-xl border-b pb-1"><a id="current-role" href="#current-role">Previous Role</a></h2>
     <ul class="text-justify mt-2">
